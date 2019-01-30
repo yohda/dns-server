@@ -1,12 +1,10 @@
 # Linux-based DNS Server Programm
 - Programm Structure
-```mermaid
 graph LR
 Ci[Client] -- Request IP or DOMAIN--> HC(Hash:Cache)
 HC --> RB(Red-Black-tree:Memory)
 RB --> DNS(DNS)
 RB -- sync --> FS(File System)
-```
 
 - Programm Flow
 	1. A client request domain or ip to cache that is in server
