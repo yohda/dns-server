@@ -1,6 +1,7 @@
 # Linux-based DNS Server Programm
 - Programm Structure
-```graph LR
+```mermaid
+graph LR
 Ci[Client] -- Request IP or DOMAIN--> HC(Hash:Cache)
 HC --> RB(Red-Black-tree:Memory)
 RB --> DNS(DNS)
