@@ -103,9 +103,6 @@ void update_hit_cnt(char* _s, node* _table, slot cache[]){
 
 	(n->val.hit)++;
 	(t->hit)++;
-
-	// printf("tree - %s의 카운트:%d\n", n->val.key, n->val.hit);
-	// printf("hash - %s의 카운트:%d\n", t->key, t->hit);
 }
 
 int main(int argc, char** argv)
